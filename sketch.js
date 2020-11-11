@@ -137,6 +137,10 @@ function draw() {
       touches = []
     }
   }
+  if(gameState==END && mousePressedOver(restart)){
+
+  reset();
+}
   
   
   drawSprites();
